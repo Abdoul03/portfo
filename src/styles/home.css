@@ -1,0 +1,73 @@
+.contener{
+    display: flex;
+}
+.photo{
+    width: 60%;
+}
+.photo image{
+    height: 50%;
+}
+.presentation{
+    padding-right: 15px;
+    padding-top: 20px;
+    width: 40%;
+}
+.presentation .name{
+    color: darkseagreen;
+}
+.presentation p {
+    color: white;
+    font-size: 25px;
+}
+.salut{
+    color: white;
+    font-size: 25px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+}
+.icons a{
+    color: white;
+    margin-left: 10px;
+}
+.icons a :hover{
+    color: darkseagreen;
+}
+.emoji {
+    font-size: 30px; 
+    animation: bougerEmoji 2s infinite;
+}
+  
+@keyframes bougerEmoji {
+    0% {
+      transform: translateX(0) rotate(0deg);
+    }
+    50% {
+      transform: translateX(10px) rotate(3deg);
+    }
+    100% {
+      transform: translateX(0) rotate(0deg);
+    }
+}
+
+.down{
+    display: flex;
+    align-items: flex-end;
+    font-size: 30px;
+    margin-right: 20px;
+    margin-bottom: 130px;
+    animation: desent 1s infinite;
+}
+
+@keyframes desent {
+    0% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(10px);
+      }
+      100% {
+        transform: translateY(0);
+      }
+}

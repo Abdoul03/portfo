@@ -1,0 +1,34 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    color: white;
+    padding-left: 10px;
+}
+.header .logo{
+    color: darkseagreen;
+    font-size: 30px;
+    padding-top: 8px;
+}
+.header .logo:hover{
+    color: azure;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;/
+}
+.menu a:hover{
+    color: darkseagreen;
+}
+

@@ -1,0 +1,21 @@
+.title{
+    text-align: center;
+    color: darkseagreen ;
+    font-size: 30px;
+}
+
+.card{
+    display: flex;
+}
+/* .item{
+  
+} */
+.item h2{
+    text-align: center;
+    color: darkseagreen;
+}
+.item a {
+    color: white;
+    /* text-align: center; */
+    margin-left: 50px;
+}

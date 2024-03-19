@@ -1,0 +1,26 @@
+.title2{
+    color: darkseagreen;
+    text-align: center;
+    font-size: 30px;
+}
+p{
+    color: white;
+    font-size: 25px;
+    padding-left: 10px;
+}
+.lang{
+    text-align: center;  
+}
+.listes{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    color: darkseagreen;
+    font-size: 20px;
+}
+.listes li:hover{
+    color: White;
+}
+.listes li{
+    list-style: none;
+}
