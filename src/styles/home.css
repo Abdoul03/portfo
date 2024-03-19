@@ -63,11 +63,25 @@
 @keyframes desent {
     0% {
         transform: translateY(0);
-      }
-      50% {
+    }
+    50% {
         transform: translateY(10px);
-      }
-      100% {
+    }
+    100% {
         transform: translateY(0);
-      }
+    }
+}
+@media (max-width:1100px) {
+
+    .photo{
+        display: none;
+    }
+    .presentation{
+        display: flex;
+        flex-direction: column;
+       margin-left: 190px;
+    }
+    .down{
+        margin-bottom: 90px;
+    }
 }
